@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Curify" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+
+        <item name="android:windowBackground">#F9FAFB</item>
+
+    </style>
+
+    <style name="Theme.Curify" parent="Base.Theme.Curify" />
+</resources>

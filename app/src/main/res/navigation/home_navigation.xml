@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/item_home">
+
+    <fragment
+        android:id="@+id/item_medicine"
+        android:name="com.adeel.curify.MedicineFragment"
+        android:label="MedicineFragment" />
+    <fragment
+        android:id="@+id/item_doctors"
+        android:name="com.adeel.curify.DoctorsFragment"
+        android:label="DoctorFragment" />
+    <fragment
+        android:id="@+id/item_profile"
+        android:name="com.adeel.curify.ProfileFragment"
+        android:label="ProfileFragment" />
+    \<fragment
+    android:id="@+id/item_home"
+    android:name="com.adeel.curify.HomeFragment"
+    android:label="HomeeFragment" />
+</navigation>
